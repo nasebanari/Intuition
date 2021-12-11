@@ -43,3 +43,17 @@ document.getElementsByTagName('button')[3].addEventListener('click',() =>{
 d = Math.floor( Math.random() * (max + 1 - min) ) + min ;
 window.alert(d);
 });
+//値の取得
+function clickBtn3() {
+  const number2 = document.getElementById("number2");
+  document.getElementById("span2").textContent = number2.value;
+}
+
+//カスタム
+document.getElementsByTagName('button')[4].addEventListener('click',() =>{
+  const min = 1 ;
+  const max = parseInt(number2.value) ;
+e = Math.floor( Math.random() * (max + 1 - min) ) + min ;
+window.alert(e);
+});
+
